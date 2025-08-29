@@ -1,0 +1,28 @@
+
+<suite parallel="tests" name="Suite">
+  <listeners>
+    <listener class-name="TestComponents.Listeners"/>
+  </listeners>
+
+  <test thread-count="5" name="SubmitOrder">
+  <groups>
+<run>
+<include name="ErrorHandling"/>
+</run>
+</groups>
+    <classes>
+      <class name="pranayTest.SubmitOrder"/>
+    </classes>
+  </test>
+
+  <test thread-count="5" name="ErrorValidation">
+  <groups>
+<run>
+<include name="ErrorHandling"/>
+</run>
+</groups>
+    <classes>
+      <class name="pranayTest.ErrorValidation"/>
+    </classes>
+  </test>
+</suite>
