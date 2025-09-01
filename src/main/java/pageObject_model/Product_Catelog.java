@@ -43,17 +43,34 @@ public class Product_Catelog extends UtilityMethods {
 		return prodSelected;
 	}
 
+//	public CartPage addProductsToCart(String product_name) throws InterruptedException {
+//		WebElement prodSelected = getproductByName(product_name);
+//		WebElement addToCartBtn = prodSelected.findElement(addToCart);
+//		
+//		javaScriptScroll(addToCartBtn);
+//	//	addToCartBtn.click();
+//		javaScriptClick(addToCartBtn);
+//		waitForElementToAppear(tost_message);
+//		waitFor(spinner);
+//return  new CartPage(driver);
+//	}
 	public CartPage addProductsToCart(String product_name) throws InterruptedException {
-		WebElement prodSelected = getproductByName(product_name);
-		WebElement addToCartBtn = prodSelected.findElement(addToCart);
-		
-		javaScriptScroll(addToCartBtn);
-	//	addToCartBtn.click();
-		javaScriptClick(addToCartBtn);
-		waitForElementToAppear(tost_message);
-		waitFor(spinner);
-return  new CartPage(driver);
+	    WebElement prodSelected = getproductByName(product_name);
+
+	    if (prodSelected == null) {
+	        System.out.println("Product not found in catalog: " + product_name);
+	        return new CartPage(driver); // return cart page without adding anything
+	    }
+
+	    WebElement addToCartBtn = prodSelected.findElement(addToCart);
+	    javaScriptScroll(addToCartBtn);
+	    javaScriptClick(addToCartBtn);
+	    waitForElementToAppear(tost_message);
+	    waitFor(spinner);
+
+	    return new CartPage(driver);
 	}
+
 
 	public void selectProduct(String product_nameSelected) throws InterruptedException {
 		for (WebElement product : products) {

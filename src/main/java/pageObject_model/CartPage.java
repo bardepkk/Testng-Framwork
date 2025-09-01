@@ -11,13 +11,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import com.aventstack.extentreports.ExtentTest;
+
 import Utility.UtilityMethods;
 
 public class CartPage extends UtilityMethods {
 	WebDriver driver;
 
 	public CartPage(WebDriver driver) {
-		super(driver);
+		  super(driver); 
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}

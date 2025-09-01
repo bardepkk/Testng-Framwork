@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="88.23" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="141.886" tests="7" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire4795500049134038766\surefirebooter-20250829173801551_3.jar C:\Users\Admin\AppData\Local\Temp\surefire4795500049134038766 2025-08-29T17-38-01_021-jvmRun1 surefire-20250829173801551_1tmp surefire_0-20250829173801551_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire18313079866943979478\surefirebooter-20250830155644359_3.jar C:\Users\Admin\AppData\Local\Temp\surefire18313079866943979478 2025-08-30T15-56-43_625-jvmRun1 surefire-20250830155644359_1tmp surefire_0-20250830155644359_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Admin\eclipse-workspace\TestNG_Framework\target\test-classes;C:\Users\Admin\eclipse-workspace\TestNG_Framework\target\classes;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\Admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Admin\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\Admin\.m2\repository\io\github\bonigarcia\webdrivermanager\6.2.0\webdrivermanager-6.2.0.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java\3.5.3\docker-java-3.5.3.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-core\3.5.3\docker-java-core-3.5.3.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-api\3.5.3\docker-java-api-3.5.3.jar;C:\Users\Admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.3\docker-java-transport-httpclient5-3.5.3.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport\3.5.3\docker-java-transport-3.5.3.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-testng\7.27.2\cucumber-testng-7.27.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\Admin\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\Admin\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-classic\1.5.6\logback-classic-1.5.6.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-core\1.5.6\logback-core-1.5.6.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire4795500049134038766\surefirebooter-20250829173801551_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire18313079866943979478\surefirebooter-20250830155644359_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -58,171 +58,151 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="SubmitOrder[{password=Star1234, product_name=Pant, email=bardepkk@gmail.com}](1)" classname="pranayTest.SubmitOrder" time="6.156">
-    <system-out><![CDATA[17:38:03.600 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\Admin\eclipse-workspace\TestNG_Framework\testNG-suite\testng.xml"
+  <testcase name="SubmitOrder[{password=Star1234, product_name=Pant, email=bardepkk@gmail.com}](1)" classname="pranayTest.SubmitOrder" time="19.617">
+    <system-out><![CDATA[15:56:49.022 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\Admin\eclipse-workspace\TestNG_Framework\testNG-suite\testng.xml"
 Execution Started: SubmitOrder
-17:38:07.421 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
-17:38:08.863 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Removing resolution chrome=139 from cache (expired on Fri Aug 29 16:59:59 IST 2025)
-17:38:08.918 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000001 preparing request execution
-17:38:08.950 [main] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000001 target auth state: UNCHALLENGED
-17:38:08.952 [main] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000001 proxy auth state: UNCHALLENGED
-17:38:08.953 [main] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000001 acquiring connection with route {s}->[https://raw.githubusercontent.com:443]
-17:38:08.953 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000001 acquiring endpoint (3 MINUTES)
-17:38:08.956 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
-17:38:08.970 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000001 endpoint leased [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
-17:38:09.005 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000001 acquired ep-0000000001
-17:38:09.005 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000001 acquired endpoint ep-0000000001
-17:38:09.005 [main] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000001 opening connection {s}->[https://raw.githubusercontent.com:443]
-17:38:09.007 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 connecting endpoint (null)
-17:38:09.016 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
-17:38:09.020 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolving remote address
-17:38:09.052 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.109.133]
-17:38:09.053 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- https://raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.111.133:443 (30 SECONDS)
-17:38:09.079 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-0 https://raw.githubusercontent.com:443 connected /192.168.1.103:56253->raw.githubusercontent.com/185.199.111.133:443
-17:38:09.079 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection -- http-outgoing-0 set socket timeout to 3 MINUTES
-17:38:09.080 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-0 https://raw.githubusercontent.com:443 upgrading to TLS
-17:38:09.267 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled protocols: [TLSv1.3, TLSv1.2]
-17:38:09.267 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-17:38:09.268 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Starting handshake (null)
-17:38:09.506 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Secure session established
-17:38:09.507 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated protocol: TLSv1.3
-17:38:09.507 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated cipher suite: TLS_AES_128_GCM_SHA256
-17:38:09.508 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer principal: CN=*.github.io
-17:38:09.513 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer alternative names: [*.github.io, *.github.com, *.githubusercontent.com, github.com, github.io, githubusercontent.com, www.github.com]
-17:38:09.514 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  issuer principal: CN=Sectigo RSA Domain Validation Secure Server CA, O=Sectigo Limited, L=Salford, ST=Greater Manchester, C=GB
-17:38:09.515 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-0 https://raw.githubusercontent.com:443 upgraded to TLS
-17:38:09.515 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connected http-outgoing-0
-17:38:09.516 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 endpoint connected
-17:38:09.517 [main] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties
-17:38:09.517 [main] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies -- ex-0000000001 Cookie spec selected: strict
-17:38:09.537 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 start execution ex-0000000001
-17:38:09.539 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
-17:38:09.544 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
-17:38:09.546 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
-17:38:09.546 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> accept-encoding: gzip, deflate, br
-17:38:09.547 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> cache-control: max-age=0
-17:38:09.547 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> connection: keep-alive
-17:38:09.548 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> Host: raw.githubusercontent.com
-17:38:09.548 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
-17:38:09.548 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-17:38:09.548 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-17:38:09.548 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
-17:38:09.548 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "connection: keep-alive[\r][\n]"
-17:38:09.549 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
-17:38:09.549 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "[\r][\n]"
-17:38:09.598 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-17:38:09.599 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-17:38:09.599 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Length: 946[\r][\n]"
-17:38:09.599 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
-17:38:09.599 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-17:38:09.599 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-17:38:09.599 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"[\r][\n]"
-17:38:09.600 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-17:38:09.600 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
-17:38:09.600 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
-17:38:09.600 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-17:38:09.600 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-GitHub-Request-Id: 56F9:6649A:28146:6F936:68A4DF56[\r][\n]"
-17:38:09.600 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
-17:38:09.600 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
-17:38:09.601 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Date: Fri, 29 Aug 2025 12:08:09 GMT[\r][\n]"
-17:38:09.601 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
-17:38:09.601 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Served-By: cache-bom-vanm7210035-BOM[\r][\n]"
-17:38:09.601 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Cache: HIT[\r][\n]"
-17:38:09.601 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Cache-Hits: 3[\r][\n]"
-17:38:09.601 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Timer: S1756469290.803882,VS0,VE0[\r][\n]"
-17:38:09.601 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
-17:38:09.602 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
-17:38:09.602 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
-17:38:09.602 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Fastly-Request-ID: 37272ab56f5fb4480babdac46180dd6fdc2b1f70[\r][\n]"
-17:38:09.602 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Expires: Fri, 29 Aug 2025 12:13:09 GMT[\r][\n]"
-17:38:09.602 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Source-Age: 130[\r][\n]"
-17:38:09.602 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[\r][\n]"
-17:38:09.611 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << HTTP/1.1 200 OK
-17:38:09.612 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Connection: keep-alive
-17:38:09.612 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Length: 946
-17:38:09.612 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Cache-Control: max-age=300
-17:38:09.613 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-17:38:09.613 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Type: text/plain; charset=utf-8
-17:38:09.613 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"
-17:38:09.613 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Strict-Transport-Security: max-age=31536000
-17:38:09.613 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Content-Type-Options: nosniff
-17:38:09.613 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Frame-Options: deny
-17:38:09.613 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-XSS-Protection: 1; mode=block
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-GitHub-Request-Id: 56F9:6649A:28146:6F936:68A4DF56
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Encoding: gzip
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Accept-Ranges: bytes
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Date: Fri, 29 Aug 2025 12:08:09 GMT
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Via: 1.1 varnish
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Served-By: cache-bom-vanm7210035-BOM
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Cache: HIT
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Cache-Hits: 3
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Timer: S1756469290.803882,VS0,VE0
-17:38:09.614 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Vary: Authorization,Accept-Encoding
-17:38:09.615 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Access-Control-Allow-Origin: *
-17:38:09.615 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Cross-Origin-Resource-Policy: cross-origin
-17:38:09.615 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Fastly-Request-ID: 37272ab56f5fb4480babdac46180dd6fdc2b1f70
-17:38:09.615 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Expires: Fri, 29 Aug 2025 12:13:09 GMT
-17:38:09.615 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Source-Age: 130
-17:38:09.627 [main] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000001 connection can be kept alive for 3 MINUTES
-17:38:09.635 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]X[0xffffffd1]n[0xffffffda]0[0x14]}[0xffffffe7]+,[0xffffffba]J [0x11][0xffffffb2][0x1][0xffffffeb][0xffffffaa]Jy[0xffffffa0][0x19]e[0xffffffd5][0xffffffa8]`[0xffffffd0]v[0xffffff9b][0xffffffe4][0x17][0xffffff93]8`)[0xffffff89]Q[0xffffff9c]@[0xffffffb7][0xffffffa9][0xfffffffb][0xfffffff6]9NB[0xffffffe3]$[0xc]H[0xffffffe0][0xffffffad][0xffffff8e][0xffffff8f][0xffffffef]97[0xffffffdc]s}[0xffffffd3][0xb][0xffffffa0]S[0xffffffc7]A[0xffffffae][0xffffffc9][0xffffff80][0xffffff89]|4G[0xc][0xffffffd7].[0xffffffc0][0xffffffe3][0xffffff92]0`[0x11][0x1b][0x3][0xffffff83][0xffffffba]>".[0x3][0xfffffffe]2\[0xffffffc4]P[0xffffff9f][0xffffff82]9[0x6][0xfffffff8][0x5][0x1b][0xffffff81][0xffffff8f]M@\[0xffffffb1][0xffffffcd][0xffffff96][0xffffffd8][0xffffffb6][0xffffffc3][0x5][0xfffffff5]L[0xffffffec][0xffffff85] [0x13][0xfffffffb][0xffffffd8][0xfffffff0][0xffffffc5][0xffffffe6][0x1a]{[0xffffff8c]P[0xffffffbe]g[0x1][0xffffffcc][0xffffffff]^x[0x18][0xffffffbb]`[0xffffffee][0xffffffd1][\r][0xffffffe3][0x1b][0xffffff9c][0xffffffb2][0xffffffa1]/=[0xffffffea][0xffffffe0][0x16][0xffffffb8]#[0x1e][0xffffffb6][0xffffffe8]K[0xb][0xffffff8c]W[0xffffffd8]C-00[0x17][0xfffffffc][0xffffffa9][0xffffffd8]%[0xffffff81][0xffffffd3][0xc][0xffffffe3][0xffffff9b][0xffffffc4][0xffffffb2][0xffffffb0][0xffffff87]][0x1f][0xffffffd0][0x10][0xffffffe3][0x13]w[0x1][0xffffffd8]/[0xffffffe6]c[0xffffff87][0xffffff81][0xffffffc6]w[0xffffffe2][0xffffff9a]<j[0xb][0xffffff8c][0xffffff88][0x1b][0xfffffff0]0[0xf][0xffffffc8][0x0][0xffffffe3]Y[0xffffffb3][0xffffffc6]9"[0xffffff8a]Z[0xffffff9c]F[0xffffffdb][0x10][0xffffffcb][0xfffffff6]&:[0xffffffd0]~[0xffffffff]A3[0x1c][0xffffffb3][0xffffffcd][0xffffffb3][0x2][0xffffffaa][0xe]6[0xe]1[0xffffffc4]+[0x11][0xffffffaf]a[0xffffffb3][0xffffffe4]|[0xffffffc0]E[0xe][0xffffffd6][0xffffffea][0xffffff97][0xffffff93][0xffffffe9]x8[0xffffffed]?[0xffffffdc][0xffffffdd][0xffffff8f][0x6][0xffffffb3][0x1b][0xffffffa8]Ax[0x9][0xffffffe1][0xffffff90][0xffffffd2][0xffffff85][0xffffff8d]![0xffffff8c]( [0xffffffec][0xffffffaf]V61[0xffffffb8]4[0xffffffea]B[0x18][0x13][0xfffffff1][0xffffffc8]u[0xffffffb0][0xffffffc0]>x[0xffffff8e][0xffffffdf][0xffffff85][0xffffffba]Fv[0xffffffb0][O[0xffffffa7][0xffffff84][0xffffff9e][0xffffffc6][0xffffff8f][0xffffffeb][0xffffffab][0xffffffe6]9Eu[0xf][0x14]5[0x1a][0xffffffeb][0xfffffffd]Q[0x7f]2[0xfffffff9][0xffffffdc][0x7f][0xffffffec][0xffffff9f]SOO[0xffffff9b][0xe][0xffffff86][0xffffffe0][0xffffffdb][0xffffffd3]`[0xfffffffa][0x13]|[0xfffffff9][0xffffffaa]?[0xffffffc1][0x19][0xffffffb5][0xfffffffc][\r][0xfffffff2]p[0xffffffc2][0x16][0xffffff93][0xffffffdd][0xffffff8e]n12D[0xffffffbc][0xffffffa4][0x16]w[0xffffffc6][0xfffffffc][0xffffffa8][0xffffffad][0xffffffe8][0xffffff86]c[0xffffffc2]z[0x16][0xffffffa9]*[0xffffffb1]I@c[0xffffff88]}[0xffffffe5][0xffffff9e][0x17][0x1a][0xffffffa8][0xffffffbf][0xfffffffb][0xffffff83][0xffffffdd][0xfffffff5]M:[0xffffffcd][0xffffffd7][0xc]e:[0xffffffbd]Tv[0xffffffcd]v[0xffffff9c][0xffffffda][0xffffffbd]k[0xffffffd1][0xfffffff6][0xffffffc4][0xffffffa3]f`[0xfffffff8][0xffffffcf]{$][0x1d].)W[0xe][0xffffffe7][0xffffffd4][0xfffffff5][0xffffffa9][0xffffff9c][0xffffffae]SH[0xffffffca]j[0xffffffb2]C[0xffffffbf][0xffffff87].V[0x3][0xffffffe6][0xffffffa9]s[0xffffffe2][0xffffffaa][0xb][0xffffffc1][0xffffffa1]D[0xfffffffb]@Qv[0xfffffffc][0xffffffee][0xfffffff1][0xffffffc1][0xffffff8e][0xffffffb6][0xb][0xffffff9f]=[0xffffffe0] C[0xfffffff0][0xffffffa4]T35J([0xffffffee]1m[0xffffffb4]Z[0xffffffa9]:[0xffffffef][0xffffff9d][0xffffffbc]I1[0xffffff95][0xffffffb7][0xffffffa0][0xfffffff1]L[0x6][0xffffffa4][0xffffffa3][0xfffffff3][0xffffffce][0x14]7[0xffffffbd]-[0xffffff91][0x15][0xffffffad]O[0xffffffd3][0xffffff9b][0x1e][0xffffffe8]ob[0xffffffdb](![0xffffff81]0[0xffffff89][0xffffffbe][0xffffffcf]k9[0x15][0xffffff95];[0xffffffd2][0xffffffe9][0xffffffa4]tS[0xffffffbe][0xffffffaf][0xffffffcb][0xffffffc6][0xffffff8f]I[0xffffffb2]d[0xfffffff5][0xffffffd0][0xfffffffa]z[0xffffffe0][0xffffff85][0x17]G[0xffffffb6][0xffffffac]s[0xffffffe1]{[0xffffff95][0xfffffffc][0x16]1[0xffffffff][0xfffffffd] [0xffffffa5]w[0xffffff90][0xffffffbf]rB[0xffffff8e][0xffffffe8]E[0xffffffb2][0xffffffc1][0xffffff8e][0xffffffd7][0xffffff90][0x13][0xffffff91]wT[0xffffffbc][0x3][0xffffff94][0xfffffff5].pGKar[0xffffffa0]B[0xffffffe7][0xffffffc4][0xffffffbf]O[0xffffff91]g[0xffffffd2][0xffffffb1][0xffffffb8]M[0xffffffc2]Y`[0x1b][0x13][0xfffffff3]E5[0xffffff83][0xffffffc8][0xffffffa5]I[0xc][0xffffff8f]2^C[0x10][0xffffff86]4[0xffffff99][0xffffffdb][0xffffffc9]a[0xffffff82]n_[0xffffff99][0xffffffca][0xffffff9a][0xffffffca][0xffffffd8][0xffffffe5][0xffffff8c]r[0xffffffba];[0xffffffaf][0xffffffca]72[0xffffffc1][0xfffffff5][0xffffffbf][0xffffffbb]R[0xe]Y[0xffffffd2]&[0xffffffaf]Y[0xffffffc6]tr[0xffffffa9][0xffffffdc][0xe][0xffffffb2][0xffffff8c][0xffffffac][0xffffffa8][0xffffffa4]_[0x12][0xffffffe3]V[0xffffff97]U[0xffffff93][0xffffff85][0xffffffe5]=[0xffffffe4]$[0x1c]J[0x8]([0xffffffb8][0xffffff96][0xffffffd2][0xffffffe7]:[0xffffffda]N[0xffffffb8][0xffffff8c]/t[0xffffffd6]6[0x1d][0xffffffe1][0xffffff9c]"[0xffffff83][0xffffffc9][0x8] ]Jb[0x0][0xffffffdf][0xffffffb2][0xffffff88]Q[0xfffffffb]x[0xffffffbf][0x15][0xffffffcd][0xffffff81][0xfffffffc][0xffffff8d]-<[0xffffffe4]0[0x8][0x5][0x5][0xffffff84]Q[0xffffffec]}[0xffffffd5][0xffffff9c]QP[0xffffffc5]][0xffffffa7]QPe[0x16][0xffffff8e]ym[0x14][0xffffffb8][0x6][0xffffffc7][0x1e]K[0xffffffdd][0xffffffab][0xffffff90]|E[0xffffffea][0xffffffd2]7R[0xffffffc4]+[0xffffffd1][0x1e]d[0xfffffff0][0xc][0xffffffff][0x11][0xffffffa3][0xffffffb0]<[0xffffff9d][0xffffff9f][0xffffff88][0xffffffbf][0xfffffff4][0xffffffc8][0xffffffbb]-[0xffffffba]H[0xffffffc8][[0xffffffc9][0xffffff95]Qq][0xfffffff6]-[0xffffff94]S[0xffffff91][0xffffff91][0xffffff91][0xffffffef]j[0xffffffe2]yA3[0xffffff93][0xfffffff0][0x1d]-[0xb][0xffffffcb][0xffffffe0][\n]"
-17:38:09.635 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
-17:38:09.639 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 releasing valid endpoint
-17:38:09.639 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 releasing endpoint
-17:38:09.639 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
-17:38:09.640 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-17:38:09.641 [main] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector -- Detecting chrome version using online commands.properties
-17:38:09.650 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell -- Running command on the shell: [powershell.exe, -Command, (Get-Item "${env:PROGRAMFILES}\Google\Chrome\Application\chrome.exe").VersionInfo.ProductVersion]
-17:38:11.014 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell -- Result: 139.0.7258.139
-17:38:11.016 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
-17:38:11.016 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
-17:38:11.022 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Storing resolution chrome=139 in cache (valid until 18:38:11 29/08/2025 IST)
-17:38:11.076 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
-17:38:11.078 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
+15:56:53.408 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
+15:56:55.321 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Removing resolution chrome=139 from cache (expired on Fri Aug 29 18:38:11 IST 2025)
+15:56:55.483 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000001 preparing request execution
+15:56:55.599 [main] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000001 target auth state: UNCHALLENGED
+15:56:55.601 [main] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000001 proxy auth state: UNCHALLENGED
+15:56:55.602 [main] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000001 acquiring connection with route {s}->[https://raw.githubusercontent.com:443]
+15:56:55.602 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000001 acquiring endpoint (3 MINUTES)
+15:56:55.605 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+15:56:55.617 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000001 endpoint leased [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+15:56:55.686 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000001 acquired ep-0000000001
+15:56:55.693 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000001 acquired endpoint ep-0000000001
+15:56:55.693 [main] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000001 opening connection {s}->[https://raw.githubusercontent.com:443]
+15:56:55.697 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 connecting endpoint (null)
+15:56:55.730 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+15:56:55.763 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolving remote address
+15:56:55.824 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/185.199.109.133, raw.githubusercontent.com/185.199.110.133]
+15:56:55.825 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- https://raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.108.133:443 (30 SECONDS)
+15:56:55.860 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-0 https://raw.githubusercontent.com:443 connected /192.168.1.103:62456->raw.githubusercontent.com/185.199.108.133:443
+15:56:55.861 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection -- http-outgoing-0 set socket timeout to 3 MINUTES
+15:56:55.861 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-0 https://raw.githubusercontent.com:443 upgrading to TLS
+15:56:56.164 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled protocols: [TLSv1.3, TLSv1.2]
+15:56:56.165 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+15:56:56.166 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Starting handshake (null)
+15:56:56.679 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Secure session established
+15:56:56.704 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated protocol: TLSv1.3
+15:56:56.705 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated cipher suite: TLS_AES_128_GCM_SHA256
+15:56:56.706 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer principal: CN=*.github.io
+15:56:56.749 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer alternative names: [*.github.io, *.github.com, *.githubusercontent.com, github.com, github.io, githubusercontent.com, www.github.com]
+15:56:56.749 [main] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  issuer principal: CN=Sectigo RSA Domain Validation Secure Server CA, O=Sectigo Limited, L=Salford, ST=Greater Manchester, C=GB
+15:56:56.750 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-0 https://raw.githubusercontent.com:443 upgraded to TLS
+15:56:56.751 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connected http-outgoing-0
+15:56:56.751 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 endpoint connected
+15:56:56.753 [main] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties
+15:56:56.753 [main] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies -- ex-0000000001 Cookie spec selected: strict
+15:56:56.817 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 start execution ex-0000000001
+15:56:56.819 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
+15:56:56.822 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+15:56:56.822 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+15:56:56.823 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> accept-encoding: gzip, deflate, br
+15:56:56.823 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> cache-control: max-age=0
+15:56:56.823 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> connection: keep-alive
+15:56:56.823 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> Host: raw.githubusercontent.com
+15:56:56.823 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+15:56:56.823 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+15:56:56.824 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+15:56:56.824 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+15:56:56.824 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+15:56:56.824 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+15:56:56.824 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "[\r][\n]"
+15:56:56.852 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+15:56:56.853 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+15:56:56.853 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Length: 946[\r][\n]"
+15:56:56.853 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+15:56:56.853 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+15:56:56.853 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+15:56:56.854 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"[\r][\n]"
+15:56:56.854 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+15:56:56.854 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+15:56:56.854 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+15:56:56.854 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+15:56:56.854 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-GitHub-Request-Id: 56F9:6649A:28146:6F936:68A4DF56[\r][\n]"
+15:56:56.855 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+15:56:56.855 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+15:56:56.855 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Date: Sat, 30 Aug 2025 10:26:57 GMT[\r][\n]"
+15:56:56.855 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+15:56:56.855 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Served-By: cache-bom-vanm7210086-BOM[\r][\n]"
+15:56:56.855 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+15:56:56.856 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+15:56:56.856 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Timer: S1756549618.838102,VS0,VE1[\r][\n]"
+15:56:56.856 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+15:56:56.856 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+15:56:56.857 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
+15:56:56.857 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Fastly-Request-ID: 9e986ab5dc125257ee003ef42e13696e9de9308d[\r][\n]"
+15:56:56.857 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Expires: Sat, 30 Aug 2025 10:31:57 GMT[\r][\n]"
+15:56:56.858 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Source-Age: 265[\r][\n]"
+15:56:56.858 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[\r][\n]"
+15:56:56.875 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << HTTP/1.1 200 OK
+15:56:56.875 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Connection: keep-alive
+15:56:56.875 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Length: 946
+15:56:56.876 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Cache-Control: max-age=300
+15:56:56.876 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+15:56:56.876 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+15:56:56.876 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"
+15:56:56.876 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+15:56:56.876 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Content-Type-Options: nosniff
+15:56:56.876 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Frame-Options: deny
+15:56:56.877 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-XSS-Protection: 1; mode=block
+15:56:56.877 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-GitHub-Request-Id: 56F9:6649A:28146:6F936:68A4DF56
+15:56:56.877 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Encoding: gzip
+15:56:56.877 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Accept-Ranges: bytes
+15:56:56.877 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Date: Sat, 30 Aug 2025 10:26:57 GMT
+15:56:56.878 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Via: 1.1 varnish
+15:56:56.879 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Served-By: cache-bom-vanm7210086-BOM
+15:56:56.879 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Cache: HIT
+15:56:56.879 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Cache-Hits: 1
+15:56:56.879 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Timer: S1756549618.838102,VS0,VE1
+15:56:56.880 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Vary: Authorization,Accept-Encoding
+15:56:56.880 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Access-Control-Allow-Origin: *
+15:56:56.880 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Cross-Origin-Resource-Policy: cross-origin
+15:56:56.880 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Fastly-Request-ID: 9e986ab5dc125257ee003ef42e13696e9de9308d
+15:56:56.880 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Expires: Sat, 30 Aug 2025 10:31:57 GMT
+15:56:56.880 [main] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Source-Age: 265
+15:56:56.891 [main] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000001 connection can be kept alive for 3 MINUTES
+15:56:56.936 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]X[0xffffffd1]n[0xffffffda]0[0x14]}[0xffffffe7]+,[0xffffffba]J [0x11][0xffffffb2][0x1][0xffffffeb][0xffffffaa]Jy[0xffffffa0][0x19]e[0xffffffd5][0xffffffa8]`[0xffffffd0]v[0xffffff9b][0xffffffe4][0x17][0xffffff93]8`)[0xffffff89]Q[0xffffff9c]@[0xffffffb7][0xffffffa9][0xfffffffb][0xfffffff6]9NB[0xffffffe3]$[0xc]H[0xffffffe0][0xffffffad][0xffffff8e][0xffffff8f][0xffffffef]97[0xffffffdc]s}[0xffffffd3][0xb][0xffffffa0]S[0xffffffc7]A[0xffffffae][0xffffffc9][0xffffff80][0xffffff89]|4G[0xc][0xffffffd7].[0xffffffc0][0xffffffe3][0xffffff92]0`[0x11][0x1b][0x3][0xffffff83][0xffffffba]>".[0x3][0xfffffffe]2\[0xffffffc4]P[0xffffff9f][0xffffff82]9[0x6][0xfffffff8][0x5][0x1b][0xffffff81][0xffffff8f]M@\[0xffffffb1][0xffffffcd][0xffffff96][0xffffffd8][0xffffffb6][0xffffffc3][0x5][0xfffffff5]L[0xffffffec][0xffffff85] [0x13][0xfffffffb][0xffffffd8][0xfffffff0][0xffffffc5][0xffffffe6][0x1a]{[0xffffff8c]P[0xffffffbe]g[0x1][0xffffffcc][0xffffffff]^x[0x18][0xffffffbb]`[0xffffffee][0xffffffd1][\r][0xffffffe3][0x1b][0xffffff9c][0xffffffb2][0xffffffa1]/=[0xffffffea][0xffffffe0][0x16][0xffffffb8]#[0x1e][0xffffffb6][0xffffffe8]K[0xb][0xffffff8c]W[0xffffffd8]C-00[0x17][0xfffffffc][0xffffffa9][0xffffffd8]%[0xffffff81][0xffffffd3][0xc][0xffffffe3][0xffffff9b][0xffffffc4][0xffffffb2][0xffffffb0][0xffffff87]][0x1f][0xffffffd0][0x10][0xffffffe3][0x13]w[0x1][0xffffffd8]/[0xffffffe6]c[0xffffff87][0xffffff81][0xffffffc6]w[0xffffffe2][0xffffff9a]<j[0xb][0xffffff8c][0xffffff88][0x1b][0xfffffff0]0[0xf][0xffffffc8][0x0][0xffffffe3]Y[0xffffffb3][0xffffffc6]9"[0xffffff8a]Z[0xffffff9c]F[0xffffffdb][0x10][0xffffffcb][0xfffffff6]&:[0xffffffd0]~[0xffffffff]A3[0x1c][0xffffffb3][0xffffffcd][0xffffffb3][0x2][0xffffffaa][0xe]6[0xe]1[0xffffffc4]+[0x11][0xffffffaf]a[0xffffffb3][0xffffffe4]|[0xffffffc0]E[0xe][0xffffffd6][0xffffffea][0xffffff97][0xffffff93][0xffffffe9]x8[0xffffffed]?[0xffffffdc][0xffffffdd][0xffffff8f][0x6][0xffffffb3][0x1b][0xffffffa8]Ax[0x9][0xffffffe1][0xffffff90][0xffffffd2][0xffffff85][0xffffff8d]![0xffffff8c]( [0xffffffec][0xffffffaf]V61[0xffffffb8]4[0xffffffea]B[0x18][0x13][0xfffffff1][0xffffffc8]u[0xffffffb0][0xffffffc0]>x[0xffffff8e][0xffffffdf][0xffffff85][0xffffffba]Fv[0xffffffb0][O[0xffffffa7][0xffffff84][0xffffff9e][0xffffffc6][0xffffff8f][0xffffffeb][0xffffffab][0xffffffe6]9Eu[0xf][0x14]5[0x1a][0xffffffeb][0xfffffffd]Q[0x7f]2[0xfffffff9][0xffffffdc][0x7f][0xffffffec][0xffffff9f]SOO[0xffffff9b][0xe][0xffffff86][0xffffffe0][0xffffffdb][0xffffffd3]`[0xfffffffa][0x13]|[0xfffffff9][0xffffffaa]?[0xffffffc1][0x19][0xffffffb5][0xfffffffc][\r][0xfffffff2]p[0xffffffc2][0x16][0xffffff93][0xffffffdd][0xffffff8e]n12D[0xffffffbc][0xffffffa4][0x16]w[0xffffffc6][0xfffffffc][0xffffffa8][0xffffffad][0xffffffe8][0xffffff86]c[0xffffffc2]z[0x16][0xffffffa9]*[0xffffffb1]I@c[0xffffff88]}[0xffffffe5][0xffffff9e][0x17][0x1a][0xffffffa8][0xffffffbf][0xfffffffb][0xffffff83][0xffffffdd][0xfffffff5]M:[0xffffffcd][0xffffffd7][0xc]e:[0xffffffbd]Tv[0xffffffcd]v[0xffffff9c][0xffffffda][0xffffffbd]k[0xffffffd1][0xfffffff6][0xffffffc4][0xffffffa3]f`[0xfffffff8][0xffffffcf]{$][0x1d].)W[0xe][0xffffffe7][0xffffffd4][0xfffffff5][0xffffffa9][0xffffff9c][0xffffffae]SH[0xffffffca]j[0xffffffb2]C[0xffffffbf][0xffffff87].V[0x3][0xffffffe6][0xffffffa9]s[0xffffffe2][0xffffffaa][0xb][0xffffffc1][0xffffffa1]D[0xfffffffb]@Qv[0xfffffffc][0xffffffee][0xfffffff1][0xffffffc1][0xffffff8e][0xffffffb6][0xb][0xffffff9f]=[0xffffffe0] C[0xfffffff0][0xffffffa4]T35J([0xffffffee]1m[0xffffffb4]Z[0xffffffa9]:[0xffffffef][0xffffff9d][0xffffffbc]I1[0xffffff95][0xffffffb7][0xffffffa0][0xfffffff1]L[0x6][0xffffffa4][0xffffffa3][0xfffffff3][0xffffffce][0x14]7[0xffffffbd]-[0xffffff91][0x15][0xffffffad]O[0xffffffd3][0xffffff9b][0x1e][0xffffffe8]ob[0xffffffdb](![0xffffff81]0[0xffffff89][0xffffffbe][0xffffffcf]k9[0x15][0xffffff95];[0xffffffd2][0xffffffe9][0xffffffa4]tS[0xffffffbe][0xffffffaf][0xffffffcb][0xffffffc6][0xffffff8f]I[0xffffffb2]d[0xfffffff5][0xffffffd0][0xfffffffa]z[0xffffffe0][0xffffff85][0x17]G[0xffffffb6][0xffffffac]s[0xffffffe1]{[0xffffff95][0xfffffffc][0x16]1[0xffffffff][0xfffffffd] [0xffffffa5]w[0xffffff90][0xffffffbf]rB[0xffffff8e][0xffffffe8]E[0xffffffb2][0xffffffc1][0xffffff8e][0xffffffd7][0xffffff90][0x13][0xffffff91]wT[0xffffffbc][0x3][0xffffff94][0xfffffff5].pGKar[0xffffffa0]B[0xffffffe7][0xffffffc4][0xffffffbf]O[0xffffff91]g[0xffffffd2][0xffffffb1][0xffffffb8]M[0xffffffc2]Y`[0x1b][0x13][0xfffffff3]E5[0xffffff83][0xffffffc8][0xffffffa5]I[0xc][0xffffff8f]2^C[0x10][0xffffff86]4[0xffffff99][0xffffffdb][0xffffffc9]a[0xffffff82]n_[0xffffff99][0xffffffca][0xffffff9a][0xffffffca][0xffffffd8][0xffffffe5][0xffffff8c]r[0xffffffba];[0xffffffaf][0xffffffca]72[0xffffffc1][0xfffffff5][0xffffffbf][0xffffffbb]R[0xe]Y[0xffffffd2]&[0xffffffaf]Y[0xffffffc6]tr[0xffffffa9][0xffffffdc][0xe][0xffffffb2][0xffffff8c][0xffffffac][0xffffffa8][0xffffffa4]_[0x12][0xffffffe3]V[0xffffff97]U[0xffffff93][0xffffff85][0xffffffe5]=[0xffffffe4]$[0x1c]J[0x8]([0xffffffb8][0xffffff96][0xffffffd2][0xffffffe7]:[0xffffffda]N[0xffffffb8][0xffffff8c]/t[0xffffffd6]6[0x1d][0xffffffe1][0xffffff9c]"[0xffffff83][0xffffffc9][0x8] ]Jb[0x0][0xffffffdf][0xffffffb2][0xffffff88]Q[0xfffffffb]x[0xffffffbf][0x15][0xffffffcd][0xffffff81][0xfffffffc][0xffffff8d]-<[0xffffffe4]0[0x8][0x5][0x5][0xffffff84]Q[0xffffffec]}[0xffffffd5][0xffffff9c]QP[0xffffffc5]][0xffffffa7]QPe[0x16][0xffffff8e]ym[0x14][0xffffffb8][0x6][0xffffffc7][0x1e]K[0xffffffdd][0xffffffab][0xffffff90]|E[0xffffffea][0xffffffd2]7R[0xffffffc4]+[0xffffffd1][0x1e]d[0xfffffff0][0xc][0xffffffff][0x11][0xffffffa3][0xffffffb0]<[0xffffff9d][0xffffff9f][0xffffff88][0xffffffbf][0xfffffff4][0xffffffc8][0xffffffbb]-[0xffffffba]H[0xffffffc8][[0xffffffc9][0xffffff95]Qq][0xfffffff6]-[0xffffff94]S[0xffffff91][0xffffff91][0xffffff91][0xffffffef]j[0xffffffe2]yA3[0xffffff93][0xfffffff0][0x1d]-[0xb][0xffffffcb][0xffffffe0][\n]"
+15:56:56.937 [main] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
+15:56:56.943 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 releasing valid endpoint
+15:56:56.943 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 releasing endpoint
+15:56:56.944 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+15:56:56.946 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+15:56:56.949 [main] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector -- Detecting chrome version using online commands.properties
+15:56:56.955 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell -- Running command on the shell: [powershell.exe, -Command, (Get-Item "${env:PROGRAMFILES}\Google\Chrome\Application\chrome.exe").VersionInfo.ProductVersion]
+15:57:00.576 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell -- Result: 139.0.7258.139
+15:57:00.583 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
+15:57:00.583 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
+15:57:00.588 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Storing resolution chrome=139 in cache (valid until 16:57:00 30/08/2025 IST)
+15:57:00.672 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
+15:57:00.675 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
 Thankyou for the order.
 ]]></system-out>
   </testcase>
-  <testcase name="SubmitOrder[{password=Abcd1234@, product_name=ADIDAS ORIGINAL, email=pranaybn@gmail.com}](2)" classname="pranayTest.SubmitOrder" time="5.994">
-    <system-out><![CDATA[17:38:23.278 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
-17:38:23.308 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 18:38:11 29/08/2025 IST)
-17:38:23.313 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
-17:38:23.313 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
-17:38:23.367 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
-17:38:23.369 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
+  <testcase name="SubmitOrder[{password=Abcd1234@, product_name=ADIDAS ORIGINAL, email=pranaybn@gmail.com}](2)" classname="pranayTest.SubmitOrder" time="16.702">
+    <system-out><![CDATA[15:57:32.157 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
+15:57:32.240 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 16:57:00 30/08/2025 IST)
+15:57:32.241 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
+15:57:32.241 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
+15:57:32.394 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
+15:57:32.396 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
 Thankyou for the order.
 ]]></system-out>
-    <system-err><![CDATA[Aug 29, 2025 5:38:23 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:982)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
-
-]]></system-err>
   </testcase>
-  <testcase name="orderHistory[bardepkk@gmail.com, Star1234, Pant](1)" classname="pranayTest.SubmitOrder" time="22.418">
-    <system-out><![CDATA[17:38:31.667 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
-17:38:31.698 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 18:38:11 29/08/2025 IST)
-17:38:31.699 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
-17:38:31.700 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
-17:38:31.739 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
-17:38:31.741 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
+  <testcase name="orderHistory[bardepkk@gmail.com, Star1234, Pant](1)" classname="pranayTest.SubmitOrder" time="0.0">
+    <skipped message="stale element reference: stale element not found in the current frame&#10;  (Session info: chrome=139.0.7258.139)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b0074b7b58106a84670e81adfddc9797, isElementDisplayed {id=f.BC0B7815C5754490AF15109518A9CCC1.d.F40DC54C779C383BB5AC266E6C1CA180.e.92}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62579/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (b0074b7b58106a84670e81adfddc9797)] -&gt; xpath: //tr[td[2][normalize-space()=&apos;Pant&apos;]]//button[contains(text(),&apos;Delete&apos;)]]&#10;Session ID: b0074b7b58106a84670e81adfddc9797"/>
+    <system-out><![CDATA[15:57:53.632 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
+15:57:53.656 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 16:57:00 30/08/2025 IST)
+15:57:53.658 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
+15:57:53.659 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
+15:57:53.713 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
+15:57:53.715 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
 Deleted one 'Pant' entry (count so far: 1).
-Total deleted entries for 'Pant': 1
-Order deleted successfully, 'Your Orders' section is not visible.
+Deleted one 'Pant' entry (count so far: 2).
 ]]></system-out>
-    <system-err><![CDATA[Aug 29, 2025 5:38:31 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Aug 30, 2025 3:57:53 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -243,17 +223,86 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="orderHistory[pranaybn@gmail.com, Abcd1234@, ADIDAS ORIGINAL](2)" classname="pranayTest.SubmitOrder" time="16.034">
-    <system-out><![CDATA[17:38:56.467 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
-17:38:56.496 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 18:38:11 29/08/2025 IST)
-17:38:56.498 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
-17:38:56.498 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
-17:38:56.539 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
-17:38:56.540 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
+  <testcase name="orderHistory[bardepkk@gmail.com, Star1234, Pant](2)" classname="pranayTest.SubmitOrder" time="12.928">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pranayTest.SubmitOrder.orderHistory(SubmitOrder.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[15:58:01.898 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
+15:58:01.927 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 16:57:00 30/08/2025 IST)
+15:58:01.928 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
+15:58:01.928 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
+15:58:02.002 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
+15:58:02.004 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
+]]></system-out>
+    <system-err><![CDATA[Aug 30, 2025 3:58:01 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:982)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
+
+]]></system-err>
+  </testcase>
+  <testcase name="orderHistory[pranaybn@gmail.com, Abcd1234@, ADIDAS ORIGINAL](3)" classname="pranayTest.SubmitOrder" time="14.74">
+    <system-out><![CDATA[15:58:20.815 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
+15:58:20.843 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 16:57:00 30/08/2025 IST)
+15:58:20.845 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
+15:58:20.845 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
+15:58:20.913 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
+15:58:20.919 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
 Deleted one 'ADIDAS ORIGINAL' entry (count so far: 1).
-Total deleted entries for 'ADIDAS ORIGINAL': 1
+Deleted one 'ADIDAS ORIGINAL' entry (count so far: 2).
+Total deleted entries for 'ADIDAS ORIGINAL': 2
 ]]></system-out>
-    <system-err><![CDATA[Aug 29, 2025 5:38:56 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Aug 30, 2025 3:58:20 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -274,17 +323,17 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="ErrorNoProductFound" classname="pranayTest.ErrorValidation" time="3.801">
+  <testcase name="ErrorNoProductFound" classname="pranayTest.ErrorValidation" time="6.417">
     <system-out><![CDATA[Execution Finished: SubmitOrder
 Execution Started: ErrorValidation
-17:39:15.407 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
-17:39:15.432 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 18:38:11 29/08/2025 IST)
-17:39:15.433 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
-17:39:15.434 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
-17:39:15.476 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
-17:39:15.478 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
+15:58:43.649 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
+15:58:43.690 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 16:57:00 30/08/2025 IST)
+15:58:43.693 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
+15:58:43.693 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
+15:58:43.734 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
+15:58:43.738 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
 ]]></system-out>
-    <system-err><![CDATA[Aug 29, 2025 5:39:14 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Aug 30, 2025 3:58:42 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -305,34 +354,14 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="ErrorValidation" classname="pranayTest.ErrorValidation" time="2.011">
-    <system-out><![CDATA[17:39:22.582 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
-17:39:22.607 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 18:38:11 29/08/2025 IST)
-17:39:22.608 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
-17:39:22.608 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
-17:39:22.643 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
-17:39:22.646 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
+  <testcase name="ErrorValidation" classname="pranayTest.ErrorValidation" time="2.481">
+    <system-out><![CDATA[15:58:58.088 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.2.0
+15:58:58.114 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=139 in cache (valid until 16:57:00 30/08/2025 IST)
+15:58:58.119 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome139=139.0.7258.154 in cache (valid until 15:59:59 30/08/2025 IST)
+15:58:58.120 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 139.0.7258.154 (resolved driver for Chrome 139)
+15:58:58.186 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 139.0.7258.154 found in cache
+15:58:58.187 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\139.0.7258.154\chromedriver.exe
 Incorrect email or password.
 ]]></system-out>
-    <system-err><![CDATA[Aug 29, 2025 5:39:22 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:982)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
-
-]]></system-err>
   </testcase>
 </testsuite>

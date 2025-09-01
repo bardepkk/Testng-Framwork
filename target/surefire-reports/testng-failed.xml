@@ -8,7 +8,7 @@
     <classes>
       <class name="pranayTest.SubmitOrder">
         <methods>
-          <include name="orderHistory" invocation-numbers="1"/>
+          <include name="orderHistory" invocation-numbers="0"/>
           <include name="SubmitOrder"/>
           <include name="tearDown"/>
           <include name="launchApplication"/>

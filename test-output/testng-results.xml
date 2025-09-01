@@ -1,63 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-29T18:15:46 IST" name="Default suite" finished-at="2025-08-29T18:16:12 IST" duration-ms="26795">
+  <suite started-at="2025-09-01T10:34:44 IST" name="Suite" finished-at="2025-09-01T10:36:27 IST" duration-ms="103713">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestngTestRunnerBDD@2c1b194a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.ErrorNoProductFound(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pranayTest.ErrorValidation@66c61024]" name="ErrorNoProductFound" class="pranayTest.ErrorValidation"/>
+        <method signature="ErrorValidation.ErrorValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pranayTest.ErrorValidation@66c61024]" name="ErrorValidation" class="pranayTest.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="SubmitOrder.SubmitOrder(java.util.HashMap)[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" name="SubmitOrder" class="pranayTest.SubmitOrder"/>
+      </group> <!-- purchase -->
     </groups>
-    <test started-at="2025-08-29T18:15:46 IST" name="Default test" finished-at="2025-08-29T18:16:12 IST" duration-ms="26795">
-      <class name="cucumber.TestngTestRunnerBDD">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestngTestRunnerBDD@2c1b194a]" started-at="2025-08-29T18:15:46 IST" name="setUpClass" finished-at="2025-08-29T18:15:47 IST" duration-ms="1159" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@795f8317]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-09-01T10:34:44 IST" name="ErrorValidation" finished-at="2025-09-01T10:36:08 IST" duration-ms="84660">
+      <class name="pranayTest.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:34:47 IST" name="launchApplication" finished-at="2025-09-01T10:35:02 IST" duration-ms="15200" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestngTestRunnerBDD@2c1b194a]" started-at="2025-08-29T18:15:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T18:15:59 IST" duration-ms="12379" status="PASS">
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ErrorNoProductFound(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:35:02 IST" name="ErrorNoProductFound" data-provider="LoginData" finished-at="2025-09-01T10:35:16 IST" duration-ms="14438" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Positive test of submitting the order"]]>
+                <![CDATA[pranaybn@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Purchase the order from E-commerce website"]]>
+                <![CDATA[Abcd1234@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pant]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestngTestRunnerBDD@2c1b194a]" started-at="2025-08-29T18:15:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-29T18:16:12 IST" duration-ms="13088" status="PASS">
+        </test-method> <!-- ErrorNoProductFound -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:35:16 IST" name="tearDown" finished-at="2025-09-01T10:35:20 IST" duration-ms="4236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:35:20 IST" name="launchApplication" finished-at="2025-09-01T10:35:30 IST" duration-ms="9808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ErrorNoProductFound(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:35:30 IST" name="ErrorNoProductFound" data-provider="LoginData" finished-at="2025-09-01T10:35:42 IST" duration-ms="12071" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Positive test of submitting the order"]]>
+                <![CDATA[pranaybn@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Purchase the order from E-commerce website"]]>
+                <![CDATA[Abcd1234@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestngTestRunnerBDD@2c1b194a]" started-at="2025-08-29T18:16:12 IST" name="tearDownClass" finished-at="2025-08-29T18:16:12 IST" duration-ms="52" status="PASS">
+        </test-method> <!-- ErrorNoProductFound -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:35:42 IST" name="tearDown" finished-at="2025-09-01T10:35:44 IST" duration-ms="1674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumber.TestngTestRunnerBDD -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:35:44 IST" name="launchApplication" finished-at="2025-09-01T10:35:52 IST" duration-ms="7985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ErrorValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:35:52 IST" name="ErrorValidation" data-provider="LoginData" finished-at="2025-09-01T10:35:54 IST" duration-ms="2201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bardepkk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Strar12346]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[car]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:35:54 IST" name="tearDown" finished-at="2025-09-01T10:35:56 IST" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:35:56 IST" name="launchApplication" finished-at="2025-09-01T10:36:04 IST" duration-ms="7851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ErrorValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:36:04 IST" name="ErrorValidation" data-provider="LoginData" finished-at="2025-09-01T10:36:06 IST" duration-ms="1704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fhgfjjbj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hhvhjvhjz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pranayTest.ErrorValidation@66c61024]" started-at="2025-09-01T10:36:06 IST" name="tearDown" finished-at="2025-09-01T10:36:08 IST" duration-ms="2571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pranayTest.ErrorValidation -->
+    </test> <!-- ErrorValidation -->
+    <test started-at="2025-09-01T10:34:44 IST" name="SubmitOrder" finished-at="2025-09-01T10:36:27 IST" duration-ms="103713">
+      <class name="pranayTest.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:34:44 IST" name="launchApplication" finished-at="2025-09-01T10:35:03 IST" duration-ms="18765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:35:03 IST" name="SubmitOrder" description="Place an order and verify success message" data-provider="getData1" finished-at="2025-09-01T10:35:09 IST" duration-ms="6236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product_name=Pant, password=Star1234, email=bardepkk@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:35:09 IST" name="tearDown" finished-at="2025-09-01T10:35:11 IST" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:35:11 IST" name="launchApplication" finished-at="2025-09-01T10:35:19 IST" duration-ms="8270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:35:19 IST" name="SubmitOrder" description="Place an order and verify success message" data-provider="getData1" finished-at="2025-09-01T10:35:25 IST" duration-ms="5896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product_name=ADIDAS ORIGINAL, password=Abcd1234@, email=pranaybn@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:35:25 IST" name="tearDown" finished-at="2025-09-01T10:35:28 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:35:28 IST" name="launchApplication" finished-at="2025-09-01T10:35:39 IST" duration-ms="11331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistory(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:35:39 IST" name="orderHistory" description="Verify order history and deletion" data-provider="getData2" finished-at="2025-09-01T10:36:01 IST" depends-on-methods="pranayTest.SubmitOrder.SubmitOrder" duration-ms="22218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bardepkk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Star1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:36:01 IST" name="tearDown" finished-at="2025-09-01T10:36:05 IST" duration-ms="3464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:36:05 IST" name="launchApplication" finished-at="2025-09-01T10:36:14 IST" duration-ms="9419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistory(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:36:14 IST" name="orderHistory" description="Verify order history and deletion" data-provider="getData2" finished-at="2025-09-01T10:36:26 IST" depends-on-methods="pranayTest.SubmitOrder.SubmitOrder" duration-ms="11982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pranaybn@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcd1234@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pranayTest.SubmitOrder@54eb2b70]" started-at="2025-09-01T10:36:26 IST" name="tearDown" finished-at="2025-09-01T10:36:27 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pranayTest.SubmitOrder -->
+    </test> <!-- SubmitOrder -->
+  </suite> <!-- Suite -->
 </testng-results>
